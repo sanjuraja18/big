@@ -12,4 +12,20 @@ int main(){
     
     }
     cout <<"factorial is ="<<fact;
+    cout <<"\n \n \n \n";
+    /*
+    *****
+    ****
+    ***
+    **
+    *
+    
+    */
+
+   for (int i; i<=5; i++){
+    for (int j; j<i; j--){
+        cout<<"*";
+    }
+    cout <<"\n";
+   }
 }
