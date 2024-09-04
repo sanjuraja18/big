@@ -4,15 +4,15 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int number = 0;
-    int modify = 0;
+    int number ;
+    int modify ;
     int reverce = 0;
 
     cout << "Enter a any digit number "<<"\n";
     cin >> number;
     while(number > 0){
         modify = number%10;
-        reverce = reverce + modify;
+        reverce = reverce*10 + modify;
         number = number/10;
     }
     cout << reverce;
